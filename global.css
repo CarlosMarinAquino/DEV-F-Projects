@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: #4d4d4e;
+  color: #ffffff;
+  line-height: 1.2em;
+  padding: 1.5em;
+  margin: 1rem auto;
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+  font-family: 'Kanit',sans-serif;
+  line-height: 2rem;
+  font-size: 2.1rem;
+  color: #FF4000;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.75rem;
+  color: #FF4000;
+}
+
+h3 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+  color: #FF4000;
+}
+
+dt {
+  color: #21A179;
+}
+
+header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.brief {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.image-container {
+  width: 80%;
+}
+
+.image-container img {
+  margin: 0;
+  padding: 0;
+  max-width: 80%;
+  border-radius: 50%;
+  -o-border-image: 2em;
+     border-image: 2em;
+  -webkit-box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+  border: 10px solid #FF4000;
+  -webkit-transition: -webkit-filter .5s ease-in-out;
+  transition: -webkit-filter .5s ease-in-out;
+  transition: filter .5s ease-in-out;
+  transition: filter .5s ease-in-out, -webkit-filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.media-content {
+  width: 100%;
+}
+
+.media-content #contact-info a {
+  -webkit-margin-start: 0.5rem;
+          margin-inline-start: 0.5rem;
+  text-decoration: none;
+  color: #FFFFF2;
+}
+
+.abstract {
+  width: 100%;
+}
+
+.hot-contact ul {
+  margin: 0;
+  padding: 0.25em;
+  list-style-type: none;
+}
+
+main {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+article#carreer dl dt {
+  font-weight: bold;
+}
+
+article#carreer dl dd {
+  margin: 0.4em;
+  padding-left: 0;
+  font-style: italic;
+}
+
+article#T-Skills ul {
+  -webkit-columns: 2;
+          columns: 2;
+  margin: 0em;
+  padding: 0.5em;
+  list-style-type: none;
+}
+
+article#T-Skills li {
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  font-size: 1em;
+}
+
+article#T-Skills li i {
+  -webkit-margin-end: 0.5em;
+          margin-inline-end: 0.5em;
+}
+
+#tecnical li:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  padding: 0.5em;
+}
+
+#html5:hover {
+  color: #FF4000;
+}
+
+#css3:hover {
+  color: #264de4;
+}
+
+#sass:hover {
+  color: #cc6699;
+}
+
+#js:hover {
+  color: #f0db4f;
+}
+
+#ts:hover {
+  color: #007acc;
+}
+
+#rjs:hover {
+  color: #61dafb;
+}
+
+#gql:hover {
+  color: #e535ab;
+}
+
+#ngx:hover {
+  color: #00ff15;
+}
+
+#nde:hover {
+  color: #3c873a;
+}
+
+#ejs:hover {
+  color: #0061b1;
+}
+
+#psql:hover {
+  color: #336791;
+}
+
+#mdb:hover {
+  color: #0cd45b;
+}
+
+#fma:hover {
+  Color: #a93ea0;
+}
+
+#axd:hover {
+  color: #85005d;
+}
+
+#ail:hover {
+  color: #ff401f;
+}
+
+#aps:hover {
+  color: #0061b1;
+}
+
+#apr:hover {
+  color: #7d00d0;
+}
+
+#aatf:hover {
+  color: #7d00d0;
+}
+
+article#Hobbies dl dt {
+  font-weight: bold;
+}
+
+article#Hobbies dl dd {
+  margin: 0.4em;
+  padding-left: 0;
+  font-style: normal;
+}
+
+#Social-profile ul {
+  -webkit-columns: 2;
+          columns: 2;
+  list-style-type: none;
+}
+
+#Social-profile ul li {
+  -webkit-margin-after: 1.5rem;
+          margin-block-end: 1.5rem;
+}
+
+#Social-profile ul li a {
+  -webkit-margin-start: 0.5rem;
+          margin-inline-start: 0.5rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#ptfl:hover {
+  color: #edcd1b;
+}
+
+#ptfl:hover a {
+  color: #edcd1b;
+}
+
+#ghb:hover {
+  color: #000237;
+}
+
+#ghb:hover a {
+  color: #000237;
+}
+
+#twtr:hover {
+  color: #00d5ff;
+}
+
+#twtr:hover a {
+  color: #00d5ff;
+}
+
+#mium:hover {
+  color: #000000;
+}
+
+#mium:hover a {
+  color: #000000;
+}
+
+#lkin:hover {
+  color: #001aff;
+}
+
+#lkin:hover a {
+  color: #001aff;
+}
+
+#music {
+  color: #fffaff;
+  text-decoration: none;
+}
+
+#music:hover {
+  color: #00ff15;
+}
+
+@media screen and (min-width: 500px) {
+  .brief {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .image-container {
+    width: 50%;
+  }
+  .image-container img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  .media-content {
+    width: 100%;
+    -webkit-margin-start: 1em;
+            margin-inline-start: 1em;
+  }
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 2000px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1.5rem;
+    max-width: 55rem;
+    margin: 1.5rem 2rem;
+  }
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(500px, 1fr)) [auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-column-gap: .75em;
+            column-gap: .75em;
+    row-gap: 1em;
+  }
+}
+/*# sourceMappingURL=global.css.map */
